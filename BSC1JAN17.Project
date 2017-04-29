@@ -34,7 +34,7 @@ The application allows you to make various adjustments to individual virtual mac
 
 1.	Download Ubuntu Server OS 16.04. I used a copy from the teacher. We will use Ubuntu Server OS 16.04.
 2.	 I created a Virtual machine to install our guest Operating System. Using VM VirtualBox create a machine for hosting our 32 Bit Ubuntu Linux server selecting the size and type of the drive. Configurations suggested on the project step: • Memory Size: 2048mb • Virtual Hard Disk: VDI, dynamically allocated, 20gb 
-3.	 Install Ubuntu Server. After setup was configured I enter the hostname for my computer (Ubuntu). Username natalia1. 
+3.	 Install Ubuntu Server. After setup was configured I enter the hostname for my computer (Ubuntu). Username natalia1
 
 What is a web server?
 Web servers are responsible for storing and exchanging information with other machines. Because of this, at least two participants are involved in each exchange of information: one client, who requests information, and one server, who responds to those requests.
