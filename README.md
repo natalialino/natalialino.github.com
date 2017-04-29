@@ -82,6 +82,7 @@ sudo apt-get install mysql-client mysql-server
 Verifying and testing the software for installation of the Virtual Machine the server/ web server. The teacher tried his best to accelerate the process; however, we had some delays in the first stage of the project installing the Ubuntu server. Another problem was the passwords and login for the Virtual machine. For future projects, I would recommend annotating login and password of all programs that it will be accessed. This information cannot be forgotten, it is not possible to recover a password and user login on the Virtual Box. Overall, it was a step by step project, fundamental for a first-year IT student.
 
 **Web Sites consulted** 
+
 http://www.hardware.com/comunity/virtual-machine/869168/
 
 http://www.techtudo.com.br/tudo-sobre/virtualbox.html
