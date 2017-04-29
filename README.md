@@ -28,7 +28,7 @@ Each virtual machine translates to a complete computing environment: practically
 **How does virtualization work?**
 
 A virtualization solution consists essentially of two "protagonists": the host and the guest. The host being the operating system that it runs by a physical machine. The guest, in turn, is the virtualized system that must be executed by the host. Virtualization occurs when these two elements exist..
-
+*
 **Virtual BOX**
 
 VirtualBox is an Oracle virtualization program that allows you to install and run different operating systems on a single computer without complications. With it, the user can run Linux within Windows 7, Windows within the Mac, Mac inside Windows and even all supported systems within one. You can also install Android on other machines.
@@ -63,7 +63,7 @@ Apache has the ability to read the program, and convert it by making the systems
 **Advantages:**
  Being used by around 80% of users worldwide, the system is considered the most reliable and stable to use, covering several options for the most varied situations and also it is a totally free open source system. 
 
-**Explanation of settings and configuration selected*
+**Explanation of settings and configuration selected**
  
 In class:  Installing WEB APACHE and Deploying a LAMP stack on your Ubuntu Server:
 A "LAMP" stack is a group of open source software that is typically installed together to enable a server to host dynamic websites and web apps. This term is actually an acronym which represents the Linux operating system, with the Apache web server. The site data is stored in a MySQL database, and dynamic content is processed by PHP.
