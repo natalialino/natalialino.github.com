@@ -1,3 +1,4 @@
+
 **Computer Architecture and Systems - Project and Learning Journal
 Student Natalia Barreto Lino - 17325**
 
@@ -21,16 +22,18 @@ Each virtual machine translates to a complete computing environment: practically
 
 - Security and reliability: Because each virtual machine works independently of others, a problem that arises in one of them, such as security vulnerability, will not affect the others;
 
+
 - Centralized management: depending on the virtualization solution used, it is easier to monitor the services running, since its management is done in a centralized way;
 
-**How does virtualization work?** 
+**How does virtualization work?**
+
 A virtualization solution consists essentially of two "protagonists": the host and the guest. The host being the operating system that it runs by a physical machine. The guest, in turn, is the virtualized system that must be executed by the host. Virtualization occurs when these two elements exist..
 
 **Virtual BOX**
 
 VirtualBox is an Oracle virtualization program that allows you to install and run different operating systems on a single computer without complications. With it, the user can run Linux within Windows 7, Windows within the Mac, Mac inside Windows and even all supported systems within one. You can also install Android on other machines.
 
-Configuration and Deployment of the Virtual Machine 
+**Configuration and Deployment of the Virtual Machine**
 The application allows you to make various adjustments to individual virtual machine configuration. What I have done in class following the steps available on Moddle :
 
   1.	Download Ubuntu Server OS 16.04. I used a copy from the teacher. We will use Ubuntu Server OS 16.04.
@@ -49,17 +52,18 @@ Given an example:  When the user types http://www.schoollinux.com, the browser r
 
 
 **APACHE**
+
 HTTP Apache is a WEB server responsible for providing pages and all resources that can be accessed by the user. Sending e-mails, messages, online shopping and various other functions can be performed through Web servers as such as Apache.
 It was created in 1995 by Rob McCool, an NCSA employee (National Center for Supercomputing Applications).The main idea was to supply the interpretation of Web programming languages, usually more used for PHP programmers. It is widely seen on the internet hosting servers that offer the Apache server its packages.
 
 **What is the Apache server for?**
 Apache has the ability to read the program, and convert it by making the systems run in "user" mode, by turning everything that has been written into command lines into a visual form and interaction with system users. At first the Apache server existed only for UNIX platform, running on related operating systems, such as Linux and FreeBSD, currently exists also for Windows platform. The recommendation is that it be used on UNIX platform for the best performance.
-Why use the Apache server?
+**Why use the Apache server?**
  Firstly, because the apache server is extremely fast, the same is developed by several programmers because it is open source, with this, situations of several users are not corrected where it has several updates.
 **Advantages:**
  Being used by around 80% of users worldwide, the system is considered the most reliable and stable to use, covering several options for the most varied situations and also it is a totally free open source system. 
 
-**Explanation of settings and configuration selected
+**Explanation of settings and configuration selected*
  
 In class:  Installing WEB APACHE and Deploying a LAMP stack on your Ubuntu Server:
 A "LAMP" stack is a group of open source software that is typically installed together to enable a server to host dynamic websites and web apps. This term is actually an acronym which represents the Linux operating system, with the Apache web server. The site data is stored in a MySQL database, and dynamic content is processed by PHP.
@@ -73,12 +77,14 @@ Follow bellow the steps given by the teacher.
   5.	Let’s check that our Apache server is up and running. First we will need to make sure that our network adapter settings make our VM visible from our host. We will need to shut down our VM and change the settings on our virtual network adapter. By default our adapter is configured as a Network Address Translation. We can set up port forwarding with our host to make it accessible from the host. These settings can be accessed through the Settings – Network – Advanced – Port Forwarding”
 	
 **Installing the MySQL**
+
 Install MySQL MySQL is an open source Database program. It’s vital for many features of modern websites to maintain databases for purposes such as allowing users to login, saving any user generated input to the website e.g. posts on a forum etc. 
 To install our MySQL database server run the following command: 
 sudo apt-get install mysql-client mysql-server 
 
 
 **Reflection** 
+
 Verifying and testing the software for installation of the Virtual Machine the server/ web server. The teacher tried his best to accelerate the process; however, we had some delays in the first stage of the project installing the Ubuntu server. Another problem was the passwords and login for the Virtual machine. For future projects, I would recommend annotating login and password of all programs that it will be accessed. This information cannot be forgotten, it is not possible to recover a password and user login on the Virtual Box. Overall, it was a step by step project, fundamental for a first-year IT student.
 
 **Web Sites consulted** 
