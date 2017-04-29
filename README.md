@@ -1,7 +1,7 @@
-**Computer Architecture and Systems - Project and Learning Journal
-Student Natalia Barreto Lino - 17325
+***Computer Architecture and Systems - Project and Learning Journal
+Student Natalia Barreto Lino - 17325**
 
-**Introduction
+**Introduction**
 
 The aim of this project was to successfully install and fully configure a virtual machine hosting a LAMP stack and to demonstrate a web application functioning on it. The three main stages can be listed as follows:
 The initial configuration of the virtual machine and installation of the operating system (Linux Ubuntu)
@@ -10,7 +10,7 @@ Installation and testing of the CMS and modification of the hosted content. Word
 This report will cover these stages in a step-by-step manner with a special focus on the learning process involved.
 
 **Explanation of Virtualization and VM VirtualBox. 
-Concept of Virtualisation explained. 
+Concept of Virtualisation explained**
 
 It can be defined as the computational solutions that apply to the execution of several operating systems and their respective software from a single machine. The difference is that these machines are virtual: in practice, the results are just like any other computer, but only logically, not physically.
 
@@ -26,7 +26,7 @@ Each virtual machine translates to a complete computing environment: practically
 **How does virtualization work?** 
 A virtualization solution consists essentially of two "protagonists": the host and the guest. The host being the operating system that it runs by a physical machine. The guest, in turn, is the virtualized system that must be executed by the host. Virtualization occurs when these two elements exist..
 
-**Virtual BOX
+**Virtual BOX**
 
 VirtualBox is an Oracle virtualization program that allows you to install and run different operating systems on a single computer without complications. With it, the user can run Linux within Windows 7, Windows within the Mac, Mac inside Windows and even all supported systems within one. You can also install Android on other machines.
 
@@ -82,11 +82,11 @@ sudo apt-get install mysql-client mysql-server
 Verifying and testing the software for installation of the Virtual Machine the server/ web server. The teacher tried his best to accelerate the process; however, we had some delays in the first stage of the project installing the Ubuntu server. Another problem was the passwords and login for the Virtual machine. For future projects, I would recommend annotating login and password of all programs that it will be accessed. This information cannot be forgotten, it is not possible to recover a password and user login on the Virtual Box. Overall, it was a step by step project, fundamental for a first-year IT student.
 
 **Web Sites consulted** 
-## http://www.hardware.com/comunity/virtual-machine/869168/
-## http://www.techtudo.com.br/tudo-sobre/virtualbox.html
-https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
-https://www.infowester.com/virtualization.php
-https://www.scribd.com/doc/62978470/What-it-is-and-what-is-for-Apache-server
+# http://www.hardware.com/comunity/virtual-machine/869168/
+# http://www.techtudo.com.br/tudo-sobre/virtualbox.html
+# https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
+# https://www.infowester.com/virtualization.php
+# https://www.scribd.com/doc/62978470/What-it-is-and-what-is-for-Apache-server
 
 
 
