@@ -24,7 +24,7 @@ Some advantages
 - Centralized management: depending on the virtualization solution used, it is easier to monitor the services running, since its management is done in a centralized way;
 
 How does virtualization work?
-A virtualization solution consists essentially of two "protagonists": the host and the guest. The host being the operating system that it runs by a physical machine. The guest, in turn, is the virtualized system that must be executed by the host. Virtualization occurs when these two elements exist.
+A virtualization solution consists essentially of two "protagonists": the host and the guest. The host being the operating system that it runs by a physical machine. The guest, in turn, is the virtualized system that must be executed by the host. Virtualization occurs when these two elements exist..
 
 Virtual BOX
 VirtualBox is an Oracle virtualization program that allows you to install and run different operating systems on a single computer without complications. With it, the user can run Linux within Windows 7, Windows within the Mac, Mac inside Windows and even all supported systems within one. You can also install Android on other machines.
