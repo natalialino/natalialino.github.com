@@ -1,4 +1,4 @@
-***Computer Architecture and Systems - Project and Learning Journal
+**Computer Architecture and Systems - Project and Learning Journal
 Student Natalia Barreto Lino - 17325**
 
 **Introduction**
@@ -33,9 +33,9 @@ VirtualBox is an Oracle virtualization program that allows you to install and ru
 Configuration and Deployment of the Virtual Machine 
 The application allows you to make various adjustments to individual virtual machine configuration. What I have done in class following the steps available on Moddle :
 
-1.	Download Ubuntu Server OS 16.04. I used a copy from the teacher. We will use Ubuntu Server OS 16.04.
-2.	 I created a Virtual machine to install our guest Operating System. Using VM VirtualBox create a machine for hosting our 32 Bit Ubuntu Linux server selecting the size and type of the drive. Configurations suggested on the project step: • Memory Size: 2048mb • Virtual Hard Disk: VDI, dynamically allocated, 20gb 
-3.	 Install Ubuntu Server. After setup was configured I enter the hostname for my computer (Ubuntu). Username natalia1. 
+  1.	Download Ubuntu Server OS 16.04. I used a copy from the teacher. We will use Ubuntu Server OS 16.04.
+  2.	 I created a Virtual machine to install our guest Operating System. Using VM VirtualBox create a machine for hosting our 32 Bit Ubuntu Linux server selecting the size and type of the drive. Configurations suggested on the project step: • Memory Size: 2048mb • Virtual Hard Disk: VDI, dynamically allocated, 20gb 
+  3.	 Install Ubuntu Server. After setup was configured I enter the hostname for my computer (Ubuntu). Username natalia1. 
 
 **What is a web server?**
 Web servers are responsible for storing and exchanging information with other machines. Because of this, at least two participants are involved in each exchange of information: one client, who requests information, and one server, who responds to those requests.
@@ -66,11 +66,11 @@ A "LAMP" stack is a group of open source software that is typically installed to
 We have already installed Ubuntu Server the second step is to install the APACHE Web Server.  
 Follow bellow the steps given by the teacher. 
 
-1.	Log into your VM (if updates are available you can install them with the sudo apt-get upgrade command). 
-2.	Enter the command below to install the Apache Web Server: sudo apt-get install apache2 apache2-utils 
-3.	We want to change our setting so the Apache2 web server will start up at system boot. To do this enter the systemctl enable command. Type the following: sudo systemctl enable apache2 
-4.	We also want to start the service now by entering the command: sudo systemctl start apache2 
-5.	Let’s check that our Apache server is up and running. First we will need to make sure that our network adapter settings make our VM visible from our host. We will need to shut down our VM and change the settings on our virtual network adapter. By default our adapter is configured as a Network Address Translation. We can set up port forwarding with our host to make it accessible from the host. These settings can be accessed through the Settings – Network – Advanced – Port Forwarding”
+  1.	Log into your VM (if updates are available you can install them with the sudo apt-get upgrade command). 
+  2.	Enter the command below to install the Apache Web Server: sudo apt-get install apache2 apache2-utils 
+  3.	We want to change our setting so the Apache2 web server will start up at system boot. To do this enter the systemctl enable command. Type the following: sudo systemctl enable apache2 
+  4.	We also want to start the service now by entering the command: sudo systemctl start apache2 
+  5.	Let’s check that our Apache server is up and running. First we will need to make sure that our network adapter settings make our VM visible from our host. We will need to shut down our VM and change the settings on our virtual network adapter. By default our adapter is configured as a Network Address Translation. We can set up port forwarding with our host to make it accessible from the host. These settings can be accessed through the Settings – Network – Advanced – Port Forwarding”
 	
 **Installing the MySQL**
 Install MySQL MySQL is an open source Database program. It’s vital for many features of modern websites to maintain databases for purposes such as allowing users to login, saving any user generated input to the website e.g. posts on a forum etc. 
@@ -82,11 +82,13 @@ sudo apt-get install mysql-client mysql-server
 Verifying and testing the software for installation of the Virtual Machine the server/ web server. The teacher tried his best to accelerate the process; however, we had some delays in the first stage of the project installing the Ubuntu server. Another problem was the passwords and login for the Virtual machine. For future projects, I would recommend annotating login and password of all programs that it will be accessed. This information cannot be forgotten, it is not possible to recover a password and user login on the Virtual Box. Overall, it was a step by step project, fundamental for a first-year IT student.
 
 **Web Sites consulted** 
-# http://www.hardware.com/comunity/virtual-machine/869168/
-# http://www.techtudo.com.br/tudo-sobre/virtualbox.html
-# https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
-# https://www.infowester.com/virtualization.php
-# https://www.scribd.com/doc/62978470/What-it-is-and-what-is-for-Apache-server
+http://www.hardware.com/comunity/virtual-machine/869168/
 
+http://www.techtudo.com.br/tudo-sobre/virtualbox.html
 
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
+
+https://www.infowester.com/virtualization.php
+
+https://www.scribd.com/doc/62978470/What-it-is-and-what-is-for-Apache-server
 
