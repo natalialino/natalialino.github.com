@@ -44,7 +44,7 @@ The application allows you to make various adjustments to individual virtual mac
 Web servers are responsible for storing and exchanging information with other machines. Because of this, at least two participants are involved in each exchange of information: one client, who requests information, and one server, who responds to those requests.
 
 Each side also requires a specialized program to negotiate a data exchange. In the case of the client, a browser is used, such as Internet Explore or Firefox. On the server side though, how things are not so simple. There are several software options available, but they all have one task: negotiating data transfer between clients and servers via Hypertext Transfer Protocol (Http), or Web communications protocol. The software depends on the operating system chosen for the server.
-Generally speaking, the web server is responsible for storing and exchanging information with other machines. Basically two participants are involved in information exchange: the users / clients (requestors) and the servers (attendants).
+*Generally speaking, the web server is responsible for storing and exchanging information with other machines. Basically two participants are involved in information exchange: the users / clients (requestors) and the servers (attendants).
 
 In summary, communication between the user and the server is given by the decomposition of the URL (web address) for the browser in several parts (domain name and page protocol). The DNS then translates the domain entered by the user into the IP address (numerical combination of the actual web site address) for the browser to determine which protocol to use (FTP, file transfer protocol, and http , Hypertext transfer protocol).
 
