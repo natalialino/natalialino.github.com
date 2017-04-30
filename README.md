@@ -4,11 +4,12 @@ Student Natalia Barreto Lino - 17325**
 
 **Introduction**
 
-The aim of this project was to successfully install and fully configure a virtual machine hosting a LAMP stack and to demonstrate a web application functioning on it. The three main stages can be listed as follows:
-The initial configuration of the virtual machine and installation of the operating system (Linux Ubuntu)
-Installation and testing of the Apache web server, MySQL database and php processing module.
-Installation and testing of the CMS and modification of the hosted content. Word 
-This report will cover these stages in a step-by-step manner with a special focus on the learning process involved.
+This report describes the steps followed in the individual project executed in the classroom for the discipline of Computer Architects & Systems.
+The project aims to introduce the concepts of virtualization (Virtual Machine), web server and hosting to a basic website. 
+Three stages were completed. The first stage involved the process of installing Virtual Machine (Virtual BOX software) and installation of the operating system (Linux Ubuntu). The second step was the Installation and testing of the Apache web server, MySQL database and php processing module.
+The third stage was the Installation and testing of the CMS and modification of the hosted content. The chosen website hosted on the server was the Word press. 
+The report takes the form of a learning journal. Finalizing with a reflection about  changes the student would make to avoid mistakes or ways this process may help you
+with future projects.
 
 **Explanation of Virtualization and VM VirtualBox. 
 Concept of Virtualisation explained**
