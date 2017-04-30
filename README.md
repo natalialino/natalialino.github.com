@@ -8,8 +8,7 @@ This report describes the steps followed in the individual project executed in t
 The project aims to introduce the concepts of virtualization (Virtual Machine), web server and hosting to a basic website. 
 Three stages were completed. The first stage involved the process of installing Virtual Machine (Virtual BOX software) and installation of the operating system (Linux Ubuntu). The second step was the Installation and testing of the Apache web server, MySQL database and php processing module.
 The third stage was the Installation and testing of the CMS and modification of the hosted content. The chosen website hosted on the server was the Word press. 
-The report takes the form of a learning journal. Finalizing with a reflection about  changes the student would make to avoid mistakes or ways this process may help you
-with future projects.
+The report takes the form of a learning journal. Finalizing with a reflection about changes that I would make to avoid mistakes or ways this process may help me with future projects.
 
 **Explanation of Virtualization and VM VirtualBox. 
 Concept of Virtualisation explained**
